@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: lato-regular;
+    src: url("./fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: lato-bold;
+    src: url("./fonts/Lato-Bold.ttf");
+}
+
+@font-face {
+    font-family: lato-black;
+    src: url("./fonts/Lato-Black.ttf");
+}
+
+@font-face {
+    font-family: lato-thin;
+    src: url("./fonts/Lato-Thin.ttf");
+}
+
+.bg-im {
+    background-color: #000;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.fird {
+    padding: 0;
+}
+
+.main {
+    background-color: aliceblue;
+    min-height: 100vh;
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form-group form {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #fff;
+    padding: 20px 25px;
+    width: 60%;
+    border-radius: 5px;
+}
+
+.form-group form h1 {
+    font-family: lato-bold;
+    text-transform: capitalize;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.form-gc label {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 0;
+    font-family: lato-bold;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.form-gc label input {
+    width: 100%;
+    outline: none;
+    padding: 7px 5px;
+    margin-top: 5px;
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 4px;
+    font-family: lato-regular;
+    color: #2d2d2d;
+}
+.form-group button{
+    width: 100%;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: lato-regular;
+}
