@@ -1,5 +1,5 @@
-document.getElementById('loginForm').addEventListener('submit', function(event) {
-    event.preventDefault(); 
+document.getElementById('loginForm').addEventListener('submit', function (event) {
+    event.preventDefault();
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
     if (username === '' || password === '') {
@@ -12,8 +12,8 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
             if (response.success) {
                 displayMessage('Login successful!', 'green');
                 setTimeout(() => {
-                    window.location.href = 'index.html';
-                }, 1000); 
+                    window.location.href = 'dashboard.html';
+                }, 1000);
             } else {
                 displayMessage('Invalid username or password.');
             }
